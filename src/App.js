@@ -1,25 +1,21 @@
+import "./App.css";
+import React from "react";
+import Weather from "./Weather";
 
-import './App.css';
-
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="container">
+        <Weather city="New York" />
+        <footer>
+          <small>
+            <a href="https://github.com/Lynlee21/weather-app-react">
+              Open-source code
+            </a>{" "}
+            by Lynlee Anderson
+          </small>
+        </footer>
+      </div>
     </div>
   );
 }
-
-export default App;
