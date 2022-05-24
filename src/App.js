@@ -9,7 +9,7 @@ export default function App() {
         <Weather city="New York" />
         <footer>
           <small>
-            <a href="https://github.com/Lynlee21/weather-app-react">
+            <a href="https://github.com/Lynlee21/react-weather-app">
               Open-source code
             </a>{" "}
             by Lynlee Anderson
